@@ -1,0 +1,17 @@
+{
+    "name": "WPmesbox",
+    "version": "1.0.0",
+    "description": "Wordpress plugin websocket tchat",
+    "main": "index.js",
+    "author": "james.standbridge.git@gmail.com",
+    "license": "MIT",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "dependencies": {
+        "@wordpress/scripts": "^19.0.0",
+        "axios": "^0.24.0",
+        "styled-components": "^5.3.3"
+    }
+}
